@@ -7,12 +7,12 @@ import SidebarMobile from './SidebarMobile'
 import SideBarAdminDekstop from './SideBarAdminDekstop'
 const sidebarItems: SidebarItems = {
     links :[
-        {label : 'Dashboard', href: '/admin/dashboard', icon:Home},
-        {label : 'Users', href: '/admin/users', icon:User},
-        {label : 'Category', href: '/admin/category', icon:SquareMenu},
+        {label : 'Beranda', href: '/admin/dashboard', icon:Home},
+        {label : 'Pengguna', href: '/admin/users', icon:User},
+        {label : 'Kategori', href: '/admin/category', icon:SquareMenu},
         {label : 'Menu', href: '/admin/menu', icon:List},
-        {label : 'Transaction', href: '/admin/transaction', icon:BarChartBig},
-        {label : 'Review', href: '/admin/review', icon:MessageSquareMore}
+        {label : 'Transaksi', href: '/admin/transaction', icon:BarChartBig},
+        {label : 'Ulasan', href: '/admin/review', icon:MessageSquareMore}
       ]
 }
 export default function sidebar() {
